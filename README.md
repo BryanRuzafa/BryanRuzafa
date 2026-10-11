@@ -16,7 +16,7 @@
 
 ### 🧭 Sobre mí
 
-Desarrollador **full-stack junior** con base en **sistemas, redes y seguridad**. Construyo aplicaciones web completas (API, frontend, base de datos y despliegue) y también **el servidor donde se ejecutan**: mi portfolio corre en un servidor Linux que he montado y bastionado yo.
+Desarrollador **full-stack junior** con base en **sistemas, redes y seguridad**. Construyo aplicaciones web completas (API, frontend, base de datos y despliegue) y también **el servidor donde se ejecutan**: mi [portfolio](https://github.com/BryanRuzafa/portfolio) corre en un servidor Linux que he montado y bastionado yo, y cuya configuración es [pública y saneada](https://github.com/BryanRuzafa/homelab).
 
 ```bash
 $ whoami
@@ -33,7 +33,7 @@ Primer puesto como desarrollador full-stack / backend junior, en un equipo donde
 ```
 
 - 🔐 **Ahora mismo:** especialización en ciberseguridad (bastionado, DevSecOps, OWASP, forense y hacking ético) + rutas de TryHackMe
-- 🖥️ **Homelab en producción:** nftables, CrowdSec, VPN WireGuard, copias cifradas y monitorización
+- 🖥️ **[Homelab](https://github.com/BryanRuzafa/homelab) en producción:** nftables, CrowdSec, VPN WireGuard (Tailscale), copias cifradas y monitorización
 - 🌍 Castellano y catalán nativos · Inglés B2
 - 📜 Cisco Networking Academy: CCNA Introducción a las redes · Principios de routing y switching
 
@@ -48,7 +48,7 @@ Primer puesto como desarrollador full-stack / backend junior, en un equipo donde
 
 <p align="center"><b>Frontend</b></p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=vue,nuxtjs,react,js,tailwind,html,css&theme=dark" alt="Vue, Nuxt, React, JavaScript, Tailwind, HTML, CSS" />
+  <img src="https://skillicons.dev/icons?i=vue,nuxtjs,react,nextjs,js,tailwind,html,css&theme=dark" alt="Vue, Nuxt, React, Next.js, JavaScript, Tailwind, HTML, CSS" />
 </p>
 
 <p align="center"><b>Bases de datos</b></p>
@@ -76,11 +76,12 @@ Primer puesto como desarrollador full-stack / backend junior, en un equipo donde
 
 | Proyecto | Qué es y qué hice yo | Stack |
 | :-- | :-- | :-- |
-| **[ADSUM](https://github.com/BryanRuzafa/ADSUM)**<br><sub>Proyecto final DAW · equipo de 4</sub> | PWA de asistencia escolar con **QR dinámico que caduca en segundos** para evitar el fraude, en tiempo real. Diseñé la **API en NestJS** (JWT, roles, bcrypt), los eventos con Socket.IO y la orquestación con Docker. | `NestJS` `TypeScript` `Vue 3` `MySQL` `Socket.IO` `Docker` |
+| **[ADSUM](https://github.com/BryanRuzafa/ADSUM)**<br><sub>Proyecto final DAW · equipo de 4 · feb.–may. 2026</sub> | PWA de asistencia escolar con **QR dinámico que caduca en segundos** para evitar el fraude, en tiempo real. Diseñé la **API en NestJS** (JWT, roles, bcrypt), los eventos con Socket.IO y la orquestación con Docker. | `NestJS` `TypeScript` `Vue 3` `MySQL` `Socket.IO` `Docker` |
+| **[Homelab](https://github.com/BryanRuzafa/homelab)**<br><sub>Proyecto personal · en producción · ago. 2026 – act.</sub> | Servidor Debian propio que aloja mi portfolio: **nftables + CrowdSec (+15.000 bloqueos)**, administración solo por VPN, copias cifradas con restic, Uptime Kuma y apps propias (bóveda con **cifrado E2E** y asistente de WhatsApp con n8n + Whisper). Repo público **saneado**: compose, firewall, CrowdSec, scripts y decisiones de diseño, sin IPs ni secretos. | `Debian` `Docker` `Nginx` `CrowdSec` `nftables` `Tailscale` `Python` |
+| **[Portfolio](https://github.com/BryanRuzafa/portfolio)**<br><sub>[bryanrg.dev](https://bryanrg.dev) · servido desde el homelab</sub> | Mi web personal en tres idiomas (ES · CA · EN): **CSP estricta con nonce por petición** (A+ en SSL Labs y securityheaders), contador **en vivo** de las IPs que bloquea CrowdSec, i18n tipado y SEO con datos estructurados. | `Next.js 16` `TypeScript` `Tailwind v4` `Framer Motion` `Docker` |
 | **[SONARIS](https://github.com/BryanRuzafa/SONARIS)**<br><sub>Proyecto individual DAW</sub> | App full-stack conectada a **Spotify (OAuth 2.0)** con IA de **Gemini**, salas multijugador en tiempo real y un cron que crea playlists semanales de artistas emergentes. | `Vue 3` `Node.js` `Express` `Prisma` `MySQL` `Socket.IO` |
 | **[Teatre Regalia](https://github.com/BryanRuzafa/TEATRE-REGALIA)**<br><sub>Trabajo de investigación DAW · individual</sub> | Venta de entradas que resuelve la **concurrencia**: las butacas se bloquean y sincronizan en tiempo real para que dos usuarios nunca compren el mismo asiento. | `Laravel 12` `Node.js` `Socket.IO` `Nuxt 4` `Pinia` |
 | **[KAIROS](https://github.com/BryanRuzafa/KAIROS)**<br><sub>Proyecto DAW · equipo de 4 · Scrum</sub> | Plataforma para el **Programa ENGINY del Consorci d'Educació de Barcelona**. Hice el catálogo de talleres (CRUD), el sistema de asignación a centros (back y front) y el frontend de la home y del feedback. | `Vue 3` `Pinia` `PHP 8.1` `MySQL` `Docker` |
-| **[Homelab](https://bryanrg.dev/#proyectos)**<br><sub>Proyecto personal · en producción</sub> | Servidor Debian propio que aloja mi portfolio: **nftables + CrowdSec (+15.000 bloqueos)**, administración solo por VPN, copias cifradas con restic, Uptime Kuma y apps propias (bóveda con cifrado E2E y asistente de WhatsApp con n8n + Whisper). | `Debian` `Docker` `Nginx` `CrowdSec` `WireGuard` |
 
 > 🐳 ADSUM y KAIROS se levantan en local con `docker compose up -d`. Cada repositorio explica la arquitectura, la API y cómo ejecutarlo.
 
